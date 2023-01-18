@@ -1,0 +1,25 @@
+.counter-content {
+    display: inline-block;
+    margin: 100px;
+    text-align: center;
+}
+
+.counter-content h1 {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.counter-content button {
+    height: 60px;
+    width: 60px;
+    border-radius: 25px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 20px;
+    background-color: #dcdcdc;
+}
+
+.counter-content button:hover {
+    background-color: rgb(192, 192, 192);
+    cursor: pointer;
+}
