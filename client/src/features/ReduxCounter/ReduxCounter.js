@@ -4,21 +4,24 @@ import { increment, decrement } from "./counterSlice";
 
 function ReduxCounter() {
 
+  // DELETE THIS LINE
+  const counter = 0;
+
   // TODO #7: create a hook to access dispatch function
-  const dispatch = useDispatch();
+
 
   // TODO #8: retrieve the current counter state
-  const { counter } = useSelector((state) => state.counter);
+
 
 
   const incrementCounter = () => {
     // TODO #9: use dispatch to increment the counter
-    dispatch(increment());
+
   };
 
   const decrementCounter = () => {
     // TODO #10: use dispatch to decrement the counter
-    dispatch(decrement());
+
   };
 
   return (

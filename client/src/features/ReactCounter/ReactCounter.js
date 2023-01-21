@@ -3,20 +3,22 @@ import "../../styles/counter.css";
 
 function ReactCounter() {
 
+  // DELETE THIS LINE FIRST
+  const counter = 0;
+
   // TODO #1: make an integer counter with react state
-  const [counter, setCounter] = useState(0);
+
 
   const incrementCounter = () => {
 
     // TODO #2: increment the counter
-    setCounter(counter + 1);
+
   };
 
   const decrementCounter = () => {
 
-    // TODO #3: decrement the counter (if it is less than 1, return)
-    if (counter < 1) return;
-    setCounter(counter - 1);
+    // TODO #3: decrement the counter (if it is less than 1, return before decrementing)
+
   };
 
   return (
